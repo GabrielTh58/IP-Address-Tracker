@@ -19,7 +19,7 @@
         top: 290px;
     }
 
-    .info-section .ip-info-field h3{
+    .info-section .ip-info-field h2{
         font-size: 20px;
     }
 
@@ -42,7 +42,7 @@
         top: 220px;
     }
 
-    .info-section .ip-info-field h3{
+    .info-section .ip-info-field h2{
         font-size: 12px;
     }
 
@@ -57,7 +57,7 @@
         margin-bottom: 30px;
     }
 
-    .info-section .ip-info-field h3{
+    .info-section .ip-info-field h2{
         font-size: 10px;
     }
 
