@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+/* SEARCH */
+
+.search-section{
+    width: 100%;
+    height: 287px;
+    background: url(../images/pattern-bg-desktop.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.search-section h1{
+    margin: 30px 0 30px 0;
+    color: #fff;
+    font-weight: 700;
+}
+.search-section .search-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-section .search-field .search-ip-input{
+    width: 30%;
+    padding: 14px 26px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.search-section .search-field .search-btn{
+    background-color: #000;
+    padding: 13.5px 20px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.search-section .search-field .search-btn:hover{
+    opacity: 0.7;
+}
+
+/* INFO */
+
+.info-section{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;    
+    box-shadow: 0px 16px 15px 13px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 210px;
+    z-index: 1;
+    width: 900px;
+    height: 170px;
+}
+
+.info-section .ip-info-field:nth-child(-n+3){
+    border-right: 1px solid #ddd
+}
+
+.info-section .ip-info-field{    
+    width: 100%;
+    height: 80%;
+    padding-inline: 25px;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.info-section .ip-info-field h3{
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.info-section .ip-info-field p{
+    color: hsl(0, 0%, 17%);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#map {
+    width: 100%;
+    height: 70%; 
+    z-index: 0;
+}
