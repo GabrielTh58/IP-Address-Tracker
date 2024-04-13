@@ -48,10 +48,6 @@ Users should be able to:
 
 During this project, I gained experience working with multiple APIs to fetch and display IP address information dynamically.
 
-### Continued Development
-
-In future projects, I aim to further refine my skills in JavaScript and explore more advanced techniques in front-end development.
-
 ### Useful Resources
 
 - [Leaflet.js Documentation](https://leafletjs.com)
