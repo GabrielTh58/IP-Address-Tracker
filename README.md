@@ -1,6 +1,6 @@
 ## Frontend Mentor - IP Address Tracker Solution
 
-This is my solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges are a great way to enhance your coding skills by building realistic projects.
+This is my solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
 
 ## Table of Contents
 
