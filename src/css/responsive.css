@@ -1,29 +1,29 @@
 @media(min-width: 2000px){
-    .search-section{
+    .container .search-section{
         height: 400px;
     }
 
-    .search-section h1{
+    .container .search-section h1{
         font-size: 50px;
     }
 
-    .search-section .search-field .search-ip-input{
+    .container .search-section .search-field .search-ip-input{
         font-size: 30px;   
     }
 
-    .search-section .search-field .search-btn{
+    .container .search-section .search-field .search-btn{
         font-size: 30px;   
     }
 
-    .info-section{
+    .container .info-section{
         top: 290px;
     }
 
-    .info-section .ip-info-field h2{
+    .container .info-section .ip-info-field h2{
         font-size: 20px;
     }
 
-    .info-section .ip-info-field p{
+    .container .info-section .ip-info-field p{
         font-size: 35px;
     }
 
@@ -33,46 +33,46 @@
 }
 
 @media(max-width: 920px){
-    .search-section .search-field .search-ip-input{
+    .container .search-section .search-field .search-ip-input{
         width: 50%;        
     }
 
-    .info-section{
+    .container .info-section{
         width: 80%;
         top: 220px;
     }
 
-    .info-section .ip-info-field h2{
+    .container .info-section .ip-info-field h2{
         font-size: 12px;
     }
 
-    .info-section .ip-info-field p{
+    .container .info-section .ip-info-field p{
         font-size: 18px;
     }
 }
 
 @media(max-width:700px){
-    .info-section .ip-info-field {
+    .container .info-section .ip-info-field {
         padding-inline: 10px;
         margin-bottom: 30px;
     }
 
-    .info-section .ip-info-field h2{
+    .container .info-section .ip-info-field h2{
         font-size: 10px;
     }
 
-    .info-section .ip-info-field p{
+    .container .info-section .ip-info-field p{
         font-size: 16px;
     }
 }
 
 @media(max-width: 520px){
-    .search-section{
+    .container .search-section{
         background: url(../images/pattern-bg-mobile.png);
         background-size: cover;
     }
     
-    .info-section{
+    .container .info-section{
         width: 70%;
         height: 300px;
         flex-direction: column;
@@ -81,16 +81,16 @@
         top: 160px;    
     }
 
-    .info-section .ip-info-field{
+    .container .info-section .ip-info-field{
         margin-bottom: 15px;
         margin-top: 10px;
     }
 
-    .info-section .ip-info-field:last-child p{
+    .container .info-section .ip-info-field:last-child p{
         display: inline;
     }
 
-    .search-section .search-field .search-ip-input{
+    .container .search-section .search-field .search-ip-input{
         width: 60%;
       }
 }

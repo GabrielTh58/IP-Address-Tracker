@@ -9,7 +9,7 @@
 
 /* SEARCH */
 
-.search-section{
+.container .search-section{
     width: 100%;
     height: 287px;
     background: url(../images/pattern-bg-desktop.png);
@@ -17,18 +17,18 @@
     text-align: center;
 }
 
-.search-section h1{
+.container .search-section h1{
     margin: 30px 0 30px 0;
     color: #fff;
     font-weight: 700;
 }
-.search-section .search-field{
+.container .search-section .search-field{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.search-section .search-field .search-ip-input{
+.container .search-section .search-field .search-ip-input{
     width: 30%;
     padding: 16px 26px;
     border: none;
@@ -53,7 +53,7 @@
 
 /* INFO */
 
-.info-section{
+.container .info-section{
     background-color: #fff;
     display: flex;
     justify-content: space-between;
@@ -67,11 +67,11 @@
     height: 170px;
 }
 
-.info-section .ip-info-field:nth-child(-n+3){
+.container .info-section .ip-info-field:nth-child(-n+3){
     border-right: 1px solid #ddd
 }
 
-.info-section .ip-info-field{    
+.container .info-section .ip-info-field{    
     width: 100%;
     height: 80%;
     padding-inline: 25px;
@@ -80,14 +80,14 @@
     margin-bottom: 40px;
 }
 
-.info-section .ip-info-field h2{
+.container .info-section .ip-info-field h2{
     font-size: 14px;
     color: hsl(0, 0%, 59%);
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-.info-section .ip-info-field p{
+.container .info-section .ip-info-field p{
     color: hsl(0, 0%, 17%);
     font-size: 25px;
     font-weight: 500;
