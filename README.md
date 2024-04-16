@@ -6,11 +6,12 @@ This is my solution to the [IP address tracker challenge on Frontend Mentor](htt
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [GIF Solution](#gif-solution)
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
 
@@ -25,7 +26,7 @@ Users should be able to:
 - See their own IP address on the map on the initial page load.
 - Search for any IP addresses or domains and see the key information and location.
 
-### Screenshot
+### GIF Solution
 
 ![GIF of IP Address Tracker](./src/images/ip_address_tracker_gif.gif)
 
