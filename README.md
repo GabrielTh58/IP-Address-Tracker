@@ -11,7 +11,6 @@ This is my solution to the [IP address tracker challenge on Frontend Mentor](htt
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
 
@@ -28,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of IP Address Tracker](./src/images/ip-address-tracker-screenshot.png)
+![GIF of IP Address Tracker](./src/images/ip_address_tracker_gif.gif)
 
 ### Links
 
-- Solution URL: (https://gabrielth58.github.io/IP-Address-Tracker/)
+- Deploy: https://gabrielth58.github.io/IP-Address-Tracker/
 
 ## My Process
 
