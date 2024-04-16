@@ -11,7 +11,6 @@ This is my solution to the [IP address tracker challenge on Frontend Mentor](htt
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
 
@@ -47,10 +46,6 @@ Users should be able to:
 ### What I Learned
 
 During this project, I gained experience working with multiple APIs to fetch and display IP address information dynamically.
-
-### Continued Development
-
-In future projects, I aim to further refine my skills in JavaScript and explore more advanced techniques in front-end development.
 
 ### Useful Resources
 
