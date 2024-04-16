@@ -27,7 +27,7 @@ Users should be able to:
 
 ### GIF Solution
 
-![GIF of IP Address Tracker](./src/images/ip_address_tracker_gif.gif)
+![GIF of IP Address Tracker](./src/images/Ip_Address_Tracker_gif.gif)
 
 ### Links
 
