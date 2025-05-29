@@ -1,57 +1,69 @@
-## Frontend Mentor - IP Address Tracker Solution
+# Frontend Mentor - Solução do IP Address Tracker
 
-This is my solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
+Esta é a minha solução para o desafio [IP Address Tracker no Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
 
-## Table of Contents
+## 📚 Tabela de Conteúdos
 
-- [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [GIF Solution](#gif-solution)
-  - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-  - [Useful Resources](#useful-resources)
-- [Author](#author)
+- [Visão Geral](#visão-geral)
+  - [O Desafio](#o-desafio)
+  - [Preview em GIF](#preview-em-gif)
+  - [Site ao Vivo](#site-ao-vivo)
+- [Meu Processo](#meu-processo)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [O Que Aprendi](#o-que-aprendi)
+  - [Recursos Úteis](#recursos-úteis)
+- [Autor](#autor)
 
-## Overview
+---
 
-### The Challenge
+## 🧐 Visão Geral
 
-Users should be able to:
+### 📌 O Desafio
 
-- View the optimal layout for each page depending on their device's screen size.
-- See hover states for all interactive elements on the page.
-- See their own IP address on the map on the initial page load.
-- Search for any IP addresses or domains and see the key information and location.
+O objetivo deste desafio foi construir um rastreador de endereços IP, onde os usuários devem ser capazes de:
 
-### GIF Solution
+- Visualizar um layout adaptável para diferentes tamanhos de tela.
+- Ver estados de hover em todos os elementos interativos.
+- Ver seu próprio endereço IP exibido no mapa ao carregar a página.
+- Pesquisar por qualquer endereço IP ou domínio e visualizar informações relevantes e sua localização.
 
-![GIF of IP Address Tracker](https://github.com/GabrielTh58/IP-Address-Tracker/raw/main/src/images/Ip_Address_Tracker_gif.gif)
+### 🎥 Preview em GIF
 
-### Links
+![GIF do IP Address Tracker](https://github.com/GabrielTh58/IP-Address-Tracker/raw/main/src/images/Ip_Address_Tracker_gif.gif)
 
-- Deploy: https://gabrielth58.github.io/IP-Address-Tracker/
+### 🔗 Site ao Vivo
 
-## My Process
+- Deploy: [gabrielth58.github.io/IP-Address-Tracker](https://gabrielth58.github.io/IP-Address-Tracker/)
 
-### Built With
+---
 
-- Semantic HTML5 markup
-- CSS custom properties
+## 🛠️ Meu Processo
+
+### 🧱 Tecnologias Utilizadas
+
+- HTML5 semântico
+- Propriedades customizadas de CSS
 - Flexbox
-- Mobile-first workflow
+- Abordagem mobile-first
 - JavaScript
+- [Leaflet.js](https://leafletjs.com) para integração com mapas
+- API de Geolocalização (Geo.IPify)
 
-### What I Learned
+### 📘 O Que Aprendi
 
-During this project, I gained experience working with multiple APIs to fetch and display IP address information dynamically.
+Durante este projeto, aprimorei minhas habilidades em:
 
-### Useful Resources
+- Consumo de múltiplas APIs para obter e exibir dados de IP dinamicamente.
+- Manipulação de mapas interativos com Leaflet.
+- Boas práticas de responsividade e usabilidade.
 
-- [Leaflet.js Documentation](https://leafletjs.com)
-- [IP Geolocation API Documentation](https://geo.ipify.org/docs) - These API documents provided valuable insights into implementing them in my code.
+### 🔍 Recursos Úteis
 
-## Author
+- [Documentação do Leaflet.js](https://leafletjs.com)
+- [Documentação da API de Geolocalização (IPify)](https://geo.ipify.org/docs) – Essenciais para entender como integrar e configurar as APIs corretamente.
+
+---
+
+## 👨‍💻 Autor
 
 - Frontend Mentor - [@GabrielTh58](https://www.frontendmentor.io/profile/GabrielTh58)
