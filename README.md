@@ -2,18 +2,6 @@
 
 Esta é a minha solução para o desafio [IP Address Tracker no Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
 
-## 📚 Tabela de Conteúdos
-
-- [Visão Geral](#visão-geral)
-  - [O Desafio](#o-desafio)
-  - [Preview em GIF](#preview-em-gif)
-  - [Site ao Vivo](#site-ao-vivo)
-- [Meu Processo](#meu-processo)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [O Que Aprendi](#o-que-aprendi)
-  - [Recursos Úteis](#recursos-úteis)
-- [Autor](#autor)
-
 ---
 
 ## 🧐 Visão Geral
@@ -33,7 +21,7 @@ O objetivo deste desafio foi construir um rastreador de endereços IP, onde os u
 
 ### 🔗 Site ao Vivo
 
-- Deploy: [gabrielth58.github.io/IP-Address-Tracker](https://gabrielth58.github.io/IP-Address-Tracker/)
+- [Deploy](https://gabrielth58.github.io/IP-Address-Tracker/)
 
 ---
 
