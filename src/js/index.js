@@ -2,9 +2,8 @@ const searchInput = document.querySelector('.search-ip-input');
 const searchBtn = document.querySelector('.search-btn');
 const apiKey = 'at_T29Ogg1wQh2uUk6w41nJLnsODuUAa';
 let latitude, longitude;
-var map;
+let map;
 
-// Pesquisa ao clicar em Enter
 searchInput.addEventListener('keyup', (event) => {
     const pressedKey = event.which || event.keyCode;
     const isEnterKeyPressed = pressedKey === 13;
@@ -14,7 +13,7 @@ searchInput.addEventListener('keyup', (event) => {
     }
 });
 
-// Quando o DOM é carregado, obtém o endereço IP do usuário, busca os detalhes do IP e exibe na página
+
 document.addEventListener('DOMContentLoaded', async () => {
     navigator.geolocation.getCurrentPosition(success);
 
@@ -27,18 +26,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     displayIpDetails(ipDetailsResponse);
 });
 
-// Função para obter a posição geográfica do usuário
-function success(pos) {
-    const latitude = pos.coords.latitude;
-    const longitude = pos.coords.longitude;
-    showMap(latitude, longitude);
-}
 
 async function getIpUser() {
     const responseIpUser = await fetch('https://api.ipify.org?format=json');
+    if(!responseIpUser.ok){
+        throw new Error('Failed to fetch IP information');
+    }
     return await responseIpUser.json();
 }
-
 
 async function getIpOrDomain(apiKey, query, ip) {
     try {
@@ -56,7 +51,6 @@ async function getIpOrDomain(apiKey, query, ip) {
     }
 }
 
-// Função para buscar os resultados da consulta
 async function getQueryresults() {
     try {
         const valueInputSearch = searchInput.value;
@@ -78,7 +72,7 @@ async function getQueryresults() {
     }
 }
 
-// Função para exibir os detalhes do IP na página
+
 function displayIpDetails(response) {
     document.getElementById('ip-address-info').textContent = response.ip;
     document.getElementById('ip-location-info').textContent = `${response.location.region}, ${response.location.country}`;
@@ -93,7 +87,7 @@ function displayIpDetails(response) {
 
 searchBtn.addEventListener('click', getQueryresults);
 
-// Função para exibir o mapa com base na latitude e longitude
+
 function showMap(latitude, longitude) {
     if (map) {
         map.setView([latitude, longitude], 13);
@@ -112,4 +106,10 @@ function showMap(latitude, longitude) {
         L.marker([latitude, longitude]).addTo(map)
             .openPopup();
     }
+}
+
+function success(pos) {
+    const latitude = pos.coords.latitude;
+    const longitude = pos.coords.longitude;
+    showMap(latitude, longitude);
 }
